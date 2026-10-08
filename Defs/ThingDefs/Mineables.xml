@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="RockBase">
+    <defName>OGF_MineableCopper</defName><label>compacted copper</label>
+    <description>Reddish copper-bearing rock. Mine it to obtain copper.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass><shaderType>CutoutComplex</shaderType>
+      <color>(92,82,78)</color><colorTwo>(194,110,61)</colorTwo>
+    </graphicData>
+    <statBases><MaxHitPoints>1300</MaxHitPoints></statBases>
+    <building>
+      <isResourceRock>true</isResourceRock><veinMineable>true</veinMineable>
+      <mineableThing>OGF_Copper</mineableThing><mineableYield>25</mineableYield>
+      <mineableScatterCommonality>0.85</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange><min>5</min><max>12</max></mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>OGF_MineablePlatinum</defName><label>compacted platinum</label>
+    <description>Pale, dense platinum-bearing rock. Mine it to obtain platinum.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass><shaderType>CutoutComplex</shaderType>
+      <color>(88,92,99)</color><colorTwo>(213,224,231)</colorTwo>
+    </graphicData>
+    <statBases><MaxHitPoints>1600</MaxHitPoints></statBases>
+    <building>
+      <isResourceRock>true</isResourceRock><veinMineable>true</veinMineable>
+      <mineableThing>OGF_Platinum</mineableThing><mineableYield>8</mineableYield>
+      <mineableScatterCommonality>0.12</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange><min>2</min><max>6</max></mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>OGF_MineableAmethyst</defName><label>amethyst deposit</label>
+    <description>Purple crystals embedded in rock. Mine it to obtain rough amethyst.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass><shaderType>CutoutComplex</shaderType>
+      <color>(78,70,87)</color><colorTwo>(154,94,205)</colorTwo>
+    </graphicData>
+    <statBases><MaxHitPoints>1100</MaxHitPoints></statBases>
+    <building>
+      <isResourceRock>true</isResourceRock><veinMineable>true</veinMineable>
+      <mineableThing>OGF_RawAmethyst</mineableThing><mineableYield>6</mineableYield>
+      <mineableScatterCommonality>0.2</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange><min>2</min><max>6</max></mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>OGF_MineableEmerald</defName><label>emerald deposit</label>
+    <description>Green crystals embedded in rock. Mine it to obtain rough emeralds.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass><shaderType>CutoutComplex</shaderType>
+      <color>(70,84,77)</color><colorTwo>(42,178,112)</colorTwo>
+    </graphicData>
+    <statBases><MaxHitPoints>1150</MaxHitPoints></statBases>
+    <building>
+      <isResourceRock>true</isResourceRock><veinMineable>true</veinMineable>
+      <mineableThing>OGF_RawEmerald</mineableThing><mineableYield>5</mineableYield>
+      <mineableScatterCommonality>0.1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange><min>2</min><max>5</max></mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>OGF_MineableRuby</defName><label>ruby deposit</label>
+    <description>Red crystals embedded in rock. Mine it to obtain rough rubies.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass><shaderType>CutoutComplex</shaderType>
+      <color>(91,70,75)</color><colorTwo>(194,48,79)</colorTwo>
+    </graphicData>
+    <statBases><MaxHitPoints>1150</MaxHitPoints></statBases>
+    <building>
+      <isResourceRock>true</isResourceRock><veinMineable>true</veinMineable>
+      <mineableThing>OGF_RawRuby</mineableThing><mineableYield>5</mineableYield>
+      <mineableScatterCommonality>0.1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange><min>2</min><max>5</max></mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+</Defs>

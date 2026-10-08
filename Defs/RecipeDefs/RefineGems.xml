@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>OGF_CutRuby</defName>
+    <label>cut ruby</label>
+    <description>Cut and polish a rough ruby for jewelry.</description>
+    <jobString>Cutting ruby.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>OGF_RawRuby</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>OGF_RawRuby</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <OGF_Ruby>1</OGF_Ruby>
+    </products>
+  </RecipeDef>
+</Defs>

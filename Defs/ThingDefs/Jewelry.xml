@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>OGF_GemRing</defName>
+    <label>gem ring</label>
+    <description>A gold ring set with the selected cut gemstone. The gemstone tints the stone; the gold band stays gold.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Jewelry/GemRing</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <colorTwo>(241,190,70)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.12</Mass>
+      <WorkToMake>1800</WorkToMake>
+      <Beauty>3</Beauty>
+      <EquipDelay>0.3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PawnBeauty>0.2</PawnBeauty>
+    </equippedStatOffsets>
+    <costStuffCount>1</costStuffCount>
+    <stuffCategories>
+     <li>OGF_Gemstone</li>
+    </stuffCategories>
+    <costList><Gold>40</Gold></costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers Inherit="False"><li>TableMachining</li></recipeUsers>
+      <researchPrerequisite>Machining</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+    <thingCategories><li>Apparel</li></thingCategories>
+    <apparel>
+      <bodyPartGroups><li>LeftHand</li></bodyPartGroups>
+      <layers><li>Belt</li></layers>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+    </apparel>
+  </ThingDef>
+</Defs>

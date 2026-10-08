@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StuffCategoryDef>
+    <defName>OGF_Gemstone</defName>
+    <label>gemstone</label>
+  </StuffCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>OGF_Gems</defName>
+    <label>gems</label>
+    <parent>ResourcesRaw</parent>
+  </ThingCategoryDef>
+</Defs>
